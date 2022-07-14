@@ -3,12 +3,12 @@ let count = listaAlunos.length // aqui estaria o numero total de alunos
 
 
 if(count == 0 ){
-    console.log("Quantidade de alunos na sala é 0")
+    console.log(`Quantidade de alunos na sala é ${count}, zero`)
 }
 if( count % 2 == 0){
-    console.log("Quantidade de alunos na sala é par")
+    console.log(`O numero de alunos na sala é ${count}, par`)
 }
 else{
-    console.log("Quantidade de alunos na sala é impar") 
+    console.log(`O numero de alunos na sala é ${count}, impar`) 
 }
 
